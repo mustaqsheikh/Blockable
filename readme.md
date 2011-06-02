@@ -9,11 +9,11 @@ How to use
 
 1. Download Blockable (preferably the minified one)
 2. Reference to it on your page, somewhere:
-        &lt;script src="/js/blockable.min.js"&gt;&lt;/script&gt;
+   <pre><code>&lt;script src="/js/blockable.min.js"&gt;&lt;/script&gt;</code></pre>
 3. Call Blockable on your element.
-        &lt;script&gt;
-            $('.element').blockable();
-        &lt;/script&gt;
+   <pre><code>&lt;script&gt;
+    $('.element').blockable();
+&lt;/script&gt;</code></pre>
 4. Rejoice in your big-ass clickable blocks.
 
 
