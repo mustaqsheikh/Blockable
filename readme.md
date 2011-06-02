@@ -12,7 +12,10 @@ How to use
    <pre><code>&lt;script src="/js/blockable.min.js"&gt;&lt;/script&gt;</code></pre>
 3. Call Blockable on your element.
    <pre><code>&lt;script&gt;
-    $('.element').blockable();
+    $('.element').blockable({
+    	cursor: true,
+    	hover: false
+    });
 &lt;/script&gt;</code></pre>
 4. Rejoice in your big-ass clickable blocks.
 
@@ -20,7 +23,7 @@ How to use
 Parameters
 ----
 
-Blockable (so far) comes with two parameters: <code>hover</code> and <code>cursor</code>, which are both boolean values. If true, <code>hover</code> adds a class of 'hover' when the block is hovered, and <code>cursor</code> adds a hand cursor to the block, like a link would.
+Blockable (so far) comes with two parameters: <code>hover</code> and <code>cursor</code>, which are both boolean values, set to true by default. If true, <code>hover</code> adds a class of 'hover' when the block is hovered, and <code>cursor</code> adds a hand cursor to the block, like a link would.
 
 
 Licensing and Support
